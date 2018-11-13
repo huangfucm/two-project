@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearf{
+    clear: both;
+}
+button{
+    outline: none;
+}
+.header{
+    padding: 30px 0;
+}
+.header_center{
+    font-size: 0px;
+    margin-top: 9px;
+    height: 30px;
+}
+.header_center input{
+    width: 500px;
+    height: 30px;
+    border:2px solid red;
+    outline: none;
+}
+
+.header_center button{
+    width: 80px;
+    height: 30px;
+    background: red;
+    border: none;
+    color: white;
+}
+.header_right{
+    position: relative;
+}
+.hr_hide{
+    width: 300px;
+    height: 50px;
+    border: 1px solid gray;
+    position: absolute;
+    display: none;
+    color: #464646;
+    font-size: 14px;
+}
+.header_right a{
+    display: inline-block;
+    color: red;
+    font-size: 14px;
+    width: 100px;
+    margin-top: 10px;
+    height: 30px;
+    margin-left: 80px;
+    background: #eee;
+    border: 1px  solid darkgray;
+    line-height: 30px;
+    text-align: center;
+}
+.leve1{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+.leve1 ul{
+    display: none;
+}
+.nav{
+    border-bottom: 2px solid red;
+}
+.all{
+    background: red;
+    margin-right: 20px;
+}
+.all a,.leve2 a,.leve3 a{
+  color: white;
+}
+.leve2,.leve3{
+    list-style-type: none;
+    height: 30px;
+    width: 100px;
+    background-color: #ff1344;
+}
+.nav_ul2{
+    position: absolute;
+}
+.leve2 ul{
+    position: absolute;
+    left: 100px;
+}
+.content_list{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.content_list span{
+    color: red;
+    font-size: 18px;
+    font-weight: 400;
+}
+.content_list{
+    width: 220px;
+}
+.p1 a{
+    display: inline-block;
+    color: #8f8f8f;
+    font-size: 14px;
+    padding: 8px 0;
+}
+.p2 a{
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+    padding: 8px 0;
+}
+.p1 a:hover{
+    color: red;
+}
+.list_bottom  button{
+    display: inline-block;
+    height: 25px;
+}
+.btn1,.btn2{
+    width: 60px;
+}
+.btn3{
+    width: 100px;
+}
+.shop{
+    width: 300px;
+    background-color: #c0c0c0;
+    border-left: 5px solid #444341;
+    position: fixed;
+    font-size: 14px;
+    right:-300px;
+    /*right: 0;*/
+    top: 0;
+    /*height: 100%;*/
+}
+.shop_list{
+    position: fixed;
+    top:30%;
+}
+.shop_list_item{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    margin-top: 3px;
+    line-height: 40px;
+}
+.shop_list_item p{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+   border: 1px solid #6b0000;
+    left: -50px;
+    background-color: #979797;
+}
+.shop_list_item a{
+    display: block;
+    width: 50px;
+    height: 40px;
+    float: right;
+    text-align: center;
+}
+.shop_top span{
+    display: inline-block;
+    padding-left: 10px;
+    float: left;
+}
+.shop_top button{
+    display: inline-block;
+    float: right;
+    padding-right: 10px;
+    border: none;
+    background-color: inherit;
+}
+.shop_bottom_right a{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+.shop_bottom_left{
+    margin-left: 20px;
+}
+.shop_bottom_left span{
+    color: re;
+}
+.shop_bottom{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+.qiu{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+}
+.shop_list_item span{
+    float: left;
+    color: white;
+    font-size: 14px;
+    display: none;
+}
+.goods_list{
+    font-size: 14px;
+    color: #575757;
+    background-color: white;
+    margin-top: 10px;
+}
+.center_right{
+    padding-left: 10px;
+    width: 190px;
+    font-size: 10px;
+    float: left;
+}
+.center_right span{
+    color: red;
+    font-size: 12px;
+    font-weight: 400;
+}
+.center_list_p2{
+    margin: 5px 0;
+    position: relative;
+}
+.center_list_p2 a{
+    position: absolute;
+    right: 20px;
+}
+.numGoods b{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #6b0000;
+line-height: 20px;
+}
